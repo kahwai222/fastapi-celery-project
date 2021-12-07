@@ -1,0 +1,10 @@
+[packages]
+alembic = "==1.6.5"
+celery = "==5.1.2"
+fastapi = "==0.66.0"
+redis = "==3.5.3"
+flower = "==1.0.0"
+SQLAlchemy = "==1.4.20"
+
+[packages.uvicorn]
+extras = [ "standard",]
